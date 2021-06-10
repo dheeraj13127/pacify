@@ -22,11 +22,10 @@ function Footer() {
         <div className="col s12 l5 m5 footerColumn" >
           <p style={{fontWeight:"bold"}}>Follow Us</p>
           <div className="bottomBorder"></div>
-         
-          <i className="fab fa-facebook footerIcons"></i>
-          <i className="fab fa-linkedin footerIcons footerIconsRound"></i>
-          <i className="fab fa-twitter-square footerIcons footerIconsRound"></i>
-          <i className="fab fa-instagram-square footerIcons footerIconsRound"></i>
+          <a href=""><i className="fab fa-facebook footerIcons"></i></a>
+          <a href=""><i className="fab fa-linkedin footerIcons footerIconsRound"></i></a>
+          <a href=""><i className="fab fa-twitter-square footerIcons footerIconsRound"></i></a>
+          <a href=""><i className="fab fa-instagram-square footerIcons footerIconsRound"></i></a>
         </div>
       
       </div>
